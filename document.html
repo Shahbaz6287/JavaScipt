@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type=" " name="u_Name">
+    <button onclick="getName()">Submit</button>
+    <h1></h1>
+</body>
+<script type="text/javascript">
+    function getName() {
+        var uName = document.getElementsByName('u_Name')[0];
+        document.getElementsByTagName("h1")[0].innerHTML=uName.value;
+        // console.log(uName);
+            }
+</script>
+</html>
